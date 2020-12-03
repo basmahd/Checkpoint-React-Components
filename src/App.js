@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import foto from './Component/Profil/myphoto.jpg';
 import Photoprofil from './Component/Profil/Photoprofil.js'
 import FullName from './Component/Profil/FullName.js'
 import Adress from './Component/Profil/Adress.js'
+import Imageprofil from './Component/Profil/imageprofil.js';
+
 
 function App() {
   return (
@@ -11,12 +12,9 @@ function App() {
     <Photoprofil/>
     <FullName/>
     <div className='espace'> 
-    <img  className='imag' src={foto} alt="myphoto" />
+    <Imageprofil/>
      <Adress/>
     </div>
-   
-
-
     </div>
   );
 }

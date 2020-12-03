@@ -39,8 +39,6 @@
 .espace{
   display: flex;
   justify-content: space-around;
-  
+  margin-bottom: 30px;
 }
-.imag{
-  border-radius:50px;
-}
+
